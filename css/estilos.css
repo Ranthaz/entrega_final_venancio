@@ -5,8 +5,8 @@
 }
 
 body {
-  color: #b3009d;
-  background-color: #fef6ff;
+  color: #415467;
+  background-color: #18f1f2;
   font-family: "Raleway", sans-serif;
   font-size: 1.5em;
   line-height: 1.875em;
@@ -110,7 +110,7 @@ span {
 }
 
 .noticia .noticia__titulo {
-  color: #b3009d;
+  color: #415467;
   font-size: 2em;
   margin: 0em 0em 1em 0.5rem;
   line-height: 3rem;
@@ -149,12 +149,12 @@ p.firma {
 .boton {
   font-size: 1rem;
   text-decoration: none;
-  color: #b3009d;
+  color: #415467;
   margin-left: 0.5rem;
 }
 
 .boton:visited {
-  color: #b3009d;
+  color: #415467;
 }
 
 .wp img {
@@ -185,7 +185,7 @@ p.firma {
 }
 
 h1 {
-  color: #b3009d;
+  color: #415467;
   text-transform: uppercase;
   font-size: 2em;
   text-align: center;
@@ -221,7 +221,7 @@ h1.thinBlog {
 }
 
 h2 {
-  color: #b3009d;
+  color: #415467;
   margin-left: 0.5rem;
   font-weight: 600;
   text-align: left;
@@ -278,7 +278,7 @@ ul {
 
 ul a {
   text-decoration: none;
-  color: #b3009d;
+  color: #415467;
 }
 
 ul a:hover {
