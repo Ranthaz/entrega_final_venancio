@@ -8,32 +8,86 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Proyecto</title>
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 
 </head>
 
 <body id="contacto">
 	
-	<div id="grilla"> 	 <!--inicio del header-->
+	<header id="mainHeader"> 	 <!--inicio del header-->
 						
-		<img class="logo" width="120" src="../media/logotipo.jpg" alt="Logo rantech">
+		<img class="logo" src="../media/logoRantech.svg" alt="Logo rantech">
 
-		<nav class=menuH>
+		<nav class="menuH">
 
 			<ul>
-				<li class="inLine"><a class="menu" href="../index.html">Quién soy</a></li>
-		    	<li class="inLine"><a class="menu" href="../index.html#remoto">Qué hago</a></li>
+				<li class="inLine"><a class="menu" href="../index.html#banner">Quién soy</a></li>
+		    	<li class="inLine"><a class="menu" href="../index.html#servicios">Servicios</a></li>
 		    	<li class="inLine"><a class="menu" href="blog.html">Blog</a></li>
-		    	<li class="inLine"><a class="menu" href="#grilla">Contactame</a></li>
+		    	<li class="inLine"><a class="menu" href="#contacto">Contactame</a></li>
 		 	</ul>
 
-		 </nav>
+		</nav>
+
+	</header> 
+
 	</div> 					<!--fin del header-->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="exampleModalLabel">Mensaje enviado</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+			  Muchas gracias, podés cerrar este mensaje.
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+			</div>
+		  </div>
+		</div>
+	  </div>		
+  
+  <div class="container">  
+  
+	  <form id="contact" action="" method="post">
+  
+		  <h3>Contactame</h3>
+  
+		  <fieldset>
+			<input placeholder="Nombre y Apellido" type="text" tabindex="1" required autofocus>
+		  </fieldset>
+		  
+		  <fieldset>
+			<input placeholder="Email" type="email" tabindex="2" required>
+		  </fieldset>
+  
+		  <fieldset>
+			<input placeholder="Celular" type="tel" tabindex="3" required>
+		  </fieldset>
+  
+		  <fieldset>
+			<textarea placeholder="Mensaje..." tabindex="5" required></textarea>
+		  </fieldset>
+  
+		  <fieldset>
+			<button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" name="submit" type="buton" id="contact-submit" data-submit="...Sending">Envíar</button>
+		  </fieldset>
+  
+		  <fieldset>
+			<button class="btn btn-primary" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Borrar</button>
+		  </fieldset>
+  
+	  </form>
+  </div>
 
-
-	<div> 					<!--incio del content-->
+	<!--<div> 					incio del content
 
 		<form action="pages/recibe.html" method="POST" autocomplete="off" class="form">
 			
@@ -60,11 +114,11 @@
 
 		   	 <br>
 
-				<label>¿Qué horario te queda mejor para hablar?</label> <!-- esto es sólo para el desafío, no va en la web final -->
-					<select class="option">			                 				<!-- esto es sólo para el desafío, no va en la web final -->
-						<option>9hs a 13hs</option>						<!-- esto es sólo para el desafío, no va en la web final -->	
-						<option>16hs a 20hs</option>					<!-- esto es sólo para el desafío, no va en la web final -->
-					</select>											<!-- esto es solo para el desafio, no va en la web final -->
+				<label>¿Qué horario te queda mejor para hablar?</label> 
+					<select class="option">			                 				
+						<option>9hs a 13hs</option>							
+						<option>16hs a 20hs</option>					
+					</select>											
 
 				<br>
 
@@ -101,7 +155,7 @@
 
     <div class="wp">
     	<img  src="../media/wsp2.png" alt="simbolo de whatsapp">
-    </div>			<!--fin del content-->
+    </div>			fin del content-->
 
 
 	<div id="footer">		<!--incio del footer-->
@@ -110,9 +164,9 @@
 		<nav>
 
 			<ul>
-				<li class="inLine"><a class="menuf" href="../index.html#yo">Quién soy</a></li>
-		    	<li class="inLine"><a class="menuf" href="../index.html#remoto">Qué hago</a></li>
-		    	<li class="inLine"><a class="menuf" href="../pages/blog.html">Blog</a></li>
+				<li class="inLine"><a class="menuf" href="../index.html#banner">Quién soy</a></li>
+		    	<li class="inLine"><a class="menuf" href="../index.html#servicios">Qué hago</a></li>
+		    	<li class="inLine"><a class="menuf" href="blog.html">Blog</a></li>
 		    	<li class="inLine"><a class="menuf" href="#contacto">Contactame</a></li>
 		 	</ul>
 
@@ -121,6 +175,7 @@
 	</div>    <!--fin del footer-->
 
 
-
+	<script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

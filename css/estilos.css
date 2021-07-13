@@ -26,13 +26,18 @@ body.blogfond {
 }
 
 #banner {
-  margin-bottom: 6.25em;
-  height: 25em;
-  background-image: url("../media/banner01.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25vh;
+  height: 100vh;
+  background-image: url("../media/banner02.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300px;
   color: white;
 }
 
@@ -47,11 +52,12 @@ body.blogfond {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  min-height: 100px;
+  max-height: 200px;
+  margin-left: 4rem;
 }
 
 section {
-  margin: 0em 2.5em 6.25em 2.5em;
+  margin: 0em 2.5em 25vh 2.5em;
   background-color: white;
   border-radius: 40px;
   padding: 50px 0px;
@@ -194,19 +200,19 @@ h1.centrado {
 }
 
 h1.thinBlog {
-  color: white;
+  color: black;
 }
 
 .fondos h1 {
   position: initial;
   padding: 0;
   margin: 4em 0 0 0;
-  color: white;
+  color: black;
 }
 
 .fondos h2, .fondos p {
   margin: 0;
-  color: white;
+  color: black;
 }
 
 .thinBlog span {

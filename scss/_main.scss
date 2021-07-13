@@ -25,20 +25,22 @@ body{
 }
 
 #banner{
+    display: flex;
+    align-items: center;
     margin-bottom: $bannerespacio*0.25;
     height: $bannerespacio;
-    background-image: url("../media/banner01.jpg");
+    background-image: url("../media/banner02.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
     color: white;
 }
 .fondos{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    min-height: 100px;
+    max-height: 200px;
+    margin-left :4rem;
 
 }
 
