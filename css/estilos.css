@@ -10,15 +10,44 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 1.5em;
   line-height: 1.875em;
+  background: url(../media/fondoprincipalfullweb2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.fondos {
+body.blogfond {
+  background: url(../media/fondoblogfullweb.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#banner {
   margin-bottom: 6.25em;
   height: 25em;
   background-image: url("../media/banner01.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 300px;
+  color: white;
+}
+
+.fondos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-height: 100px;
 }
 
 section {
@@ -164,9 +193,30 @@ h1.centrado {
   margin: 0 1em 1em 1em;
 }
 
+h1.thinBlog {
+  color: white;
+}
+
+.fondos h1 {
+  position: initial;
+  padding: 0;
+  margin: 4em 0 0 0;
+  color: white;
+}
+
+.fondos h2, .fondos p {
+  margin: 0;
+  color: white;
+}
+
+.thinBlog span {
+  font-size: 0.66667em;
+  font-weight: 300;
+}
+
 h2 {
-  color: #b3009d !important;
-  margin-left: 0.5rem !important;
+  color: #b3009d;
+  margin-left: 0.5rem;
   font-weight: 600;
   text-align: left;
 }

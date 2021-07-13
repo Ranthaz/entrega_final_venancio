@@ -10,12 +10,31 @@ h1{
         text-align: center;
         margin: 0 1em 1em 1em;
     }
+    &.thinBlog{
+        color:$colorTextoBanner;
+    }
+}
 
+.fondos h1{
+    position:initial;
+    padding: 0;
+    margin: 4em 0 0 0;
+    color: $colorTextoBanner;
+}
+
+.fondos h2,.fondos p{
+    margin: 0;
+    color: $colorTextoBanner;
+}
+
+.thinBlog span{
+    font-size: $tituloSize/3;
+    font-weight:300;
 }
 
 h2{
-    color: $colorTitulos !important;
-    margin-left: 0.5rem !important;
+    color: $colorTitulos;
+    margin-left: 0.5rem;
     font-weight: 600;
     text-align: left;
 

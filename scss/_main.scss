@@ -10,15 +10,35 @@ body{
     font-family: $fuenteTexto;
     font-size: $cuerpoSize;
     line-height: $cuerpoSize*1.25;
+    background: url(../media/fondoprincipalfullweb2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    &.blogfond{
+        background: url(../media/fondoblogfullweb.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
 }
 
-.fondos{
+#banner{
     margin-bottom: $bannerespacio*0.25;
     height: $bannerespacio;
     background-image: url("../media/banner01.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 300px;
+    color: white;
+}
+.fondos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100px;
 
 }
 
