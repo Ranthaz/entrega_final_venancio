@@ -201,7 +201,7 @@ h1.centrado {
 }
 
 h1.thinBlog {
-  color: black;
+  color: white;
 }
 
 .fondos h1 {
@@ -283,7 +283,7 @@ ul a {
 }
 
 ul a:hover {
-  color: #78b6f3;
+  color: #85bdf5;
   text-decoration: none;
 }
 
