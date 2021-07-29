@@ -139,6 +139,7 @@ p.cita {
 }
 
 p.firma {
+  color: #5c96d0;
   font-size: 1rem;
   text-align: center;
   background-color: black;
@@ -278,11 +279,11 @@ ul {
 
 ul a {
   text-decoration: none;
-  color: #415467;
+  color: #5c96d0;
 }
 
 ul a:hover {
-  color: #7C005C;
+  color: #78b6f3;
   text-decoration: none;
 }
 
