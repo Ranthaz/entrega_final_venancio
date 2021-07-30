@@ -27,7 +27,7 @@ body{
 #banner{
     display: flex;
     align-items: center;
-    margin-bottom: $bannerespacio*0.25;
+    margin-bottom: $bannerespacio*0.15;
     height: $bannerespacio;
     background-image: url("../media/banner02.jpg");
     background-position: center;
@@ -46,12 +46,17 @@ body{
 
 section{
 
-    margin: 0em 0em $bannerespacio*0.25 0em;
+    margin: 1rem;
     background-color: $fondoNoticia;
     border-radius: 0;
     padding: $paddingNoticia 0px;
     box-shadow: 12px 14px 17px -9px #2f373c;
+    max-width: 98%;
 
+}
+
+#presentacion{
+    margin-bottom: $bannerespacio*0.25;
 }
 
 span{
@@ -79,7 +84,8 @@ span{
     flex-flow: row wrap;
     align-items:center;
     justify-content: space-around;
-    justify-items: center; 
+    justify-items: center;
+    margin-bottom: 1rem;
 
     .noticia__conjunto{
         max-width: 60%;

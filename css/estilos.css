@@ -32,7 +32,7 @@ body.blogfond {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 25vh;
+  margin-bottom: 15vh;
   height: 100vh;
   background-image: url("../media/banner02.jpg");
   background-position: center;
@@ -57,12 +57,17 @@ body.blogfond {
 }
 
 section {
-  margin: 0em 0em 25vh 0em;
+  margin: 1rem;
   background-color: white;
   border-radius: 0;
-  padding: 50px 0px;
+  padding: 80px 0px;
   -webkit-box-shadow: 12px 14px 17px -9px #2f373c;
           box-shadow: 12px 14px 17px -9px #2f373c;
+  max-width: 98%;
+}
+
+#presentacion {
+  margin-bottom: 25vh;
 }
 
 span {
@@ -99,6 +104,7 @@ span {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   justify-items: center;
+  margin-bottom: 1rem;
 }
 
 .noticia .noticia__conjunto {
