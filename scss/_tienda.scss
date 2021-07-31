@@ -38,7 +38,7 @@
             height: 24px;
             width: 24px;
             float: right;
-            margin-top: -3px;
+            margin-top: -10px;
             transition: all 0.3s ease;
             cursor: default;
 
@@ -56,6 +56,7 @@
     }
 
     .photo {
+        margin-top: 40px;
         padding: 30px;
         width: 45%;
         text-align: center;
@@ -71,6 +72,7 @@
         float: left;
         width: 55%;
         border-left: 2px solid #efefef;
+        color: $colorTexto;
 
         h1 {
         color: $colorTitulos;
@@ -80,16 +82,17 @@
         font-size: 30px;
         font-weight: 300;
         }
+        
 
         h2 {
-        color: #515151;
+        color: $colorTitulos;
         margin: 0;
-        text-transform: uppercase;
+        text-transform:none;
         font-weight: 500;
         }
 
         h4 { 
-        margin: 0;
+        margin: 5px 0 0 0;
         color: $colorTexto;
         text-transform: uppercase;
         font-weight: 500;
@@ -113,7 +116,7 @@
             margin-bottom: 30px;
             color: $colorTexto;
             text-transform: uppercase;
-            width: 125px;
+            width: 300px;
             font-family: inherit;
             margin-right: 5px;
             transition: all 0.3s ease;
@@ -126,6 +129,17 @@
             cursor: default;
             }
         }   
+    }
+}
+
+.detalleProducto{
+    align-content: start;
+    font-size: 12px;
+    display: flex;
+    flex-flow: column;
+    padding: 20px 0 ;
+    li{
+        margin: -.5rem 0;
     }
 }
 

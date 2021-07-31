@@ -253,16 +253,7 @@ header img {
           justify-content: center;
 }
 
-/*.navbar-toggler{
-  cursor: pointer;
-  pointer-events: visible;
-}*/
-/*.navbar-nav{
-  font-size: 1.25rem !important;
-}*/
-/*.navbar-brand{
-  margin-left: 50%;
-}*/
+.navbar-nav
 #mainHeader {
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -538,7 +529,7 @@ fieldset {
   height: 24px;
   width: 24px;
   float: right;
-  margin-top: -3px;
+  margin-top: -10px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   cursor: default;
@@ -556,6 +547,7 @@ fieldset {
 }
 
 .tarjeta .photo {
+  margin-top: 40px;
   padding: 30px;
   width: 45%;
   text-align: center;
@@ -571,6 +563,7 @@ fieldset {
   float: left;
   width: 55%;
   border-left: 2px solid #efefef;
+  color: #415467;
 }
 
 .tarjeta .description h1 {
@@ -583,14 +576,14 @@ fieldset {
 }
 
 .tarjeta .description h2 {
-  color: #515151;
+  color: #415467;
   margin: 0;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: 500;
 }
 
 .tarjeta .description h4 {
-  margin: 0;
+  margin: 5px 0 0 0;
   color: #415467;
   text-transform: uppercase;
   font-weight: 500;
@@ -614,7 +607,7 @@ fieldset {
   margin-bottom: 30px;
   color: #415467;
   text-transform: uppercase;
-  width: 125px;
+  width: 300px;
   font-family: inherit;
   margin-right: 5px;
   -webkit-transition: all 0.3s ease;
@@ -626,6 +619,24 @@ fieldset {
   border: 1px solid #5c96d0;
   color: #5c96d0;
   cursor: default;
+}
+
+.detalleProducto {
+  -ms-flex-line-pack: start;
+      align-content: start;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  padding: 20px 0;
+}
+
+.detalleProducto li {
+  margin: -.5rem 0;
 }
 
 .noCursor {
