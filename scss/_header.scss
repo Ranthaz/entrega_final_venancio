@@ -1,36 +1,31 @@
 header{
-    /*display:flex;
-    text-align: center;
-    /*min-height: 70px;*/
-    /*width: 100%;
-    background-color: white;
-    justify-content: center;
-    align-items: center;*/
-    img{
-      width: 2em;
-      margin-left: 5rem;
-      margin-right: 1rem;
-      margin-top: 0rem;
-      margin-bottom: 0rem;
+  img{
+    width: 2em;
+     margin-left: 5rem;
+     margin-right: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     }
 }
 
 .navbar{
   background-color: white;
+  justify-content: center;
 }
 
-.navbar-toggler{
-  cursor: default;
-  pointer-events: none;
-}
+.navbar-nav
+/*.navbar-toggler{
+  cursor: pointer;
+  pointer-events: visible;
+}*/
 
-.navbar-nav{
+/*.navbar-nav{
   font-size: 1.25rem !important;
-}
+}*/
 
-.navbar-brand{
+/*.navbar-brand{
   margin-left: 50%;
-}
+}*/
 
 #mainHeader{
   justify-content: space-around;
@@ -44,7 +39,7 @@ ul{
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
   a{
     text-decoration: none;
     color: $colorLinks;

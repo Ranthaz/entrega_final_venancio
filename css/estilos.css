@@ -238,16 +238,6 @@ h3 {
   margin-left: 0.5rem;
 }
 
-header {
-  /*display:flex;
-    text-align: center;
-    /*min-height: 70px;*/
-  /*width: 100%;
-    background-color: white;
-    justify-content: center;
-    align-items: center;*/
-}
-
 header img {
   width: 2em;
   margin-left: 5rem;
@@ -258,21 +248,21 @@ header img {
 
 .navbar {
   background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.navbar-toggler {
-  cursor: default;
-  pointer-events: none;
-}
-
-.navbar-nav {
+/*.navbar-toggler{
+  cursor: pointer;
+  pointer-events: visible;
+}*/
+/*.navbar-nav{
   font-size: 1.25rem !important;
-}
-
-.navbar-brand {
+}*/
+/*.navbar-brand{
   margin-left: 50%;
-}
-
+}*/
 #mainHeader {
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -291,9 +281,8 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 ul a {
@@ -728,7 +717,7 @@ fieldset {
     font-size: 11px;
     display: inline;
     float: left;
-    margin: 10px 7px;
+    margin: -17px 0px;
     padding: auto;
     text-align: center;
     -ms-flex-wrap: wrap;
@@ -740,8 +729,8 @@ fieldset {
   .collapsed-user-menu {
     background: #d3d3d3;
     height: 70px;
-    width: 200%;
-    margin-left: -50px;
+    width: 100%;
+    margin-left: 0;
   }
   #promo-bar {
     display: none;
@@ -750,8 +739,9 @@ fieldset {
     display: block;
   }
   #menu-logo {
-    width: 50%;
-    margin-left: -20px;
+    width: 2rem;
+    margin-left: 0;
+    margin-right: -15px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

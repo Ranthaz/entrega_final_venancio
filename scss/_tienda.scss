@@ -203,7 +203,7 @@
     font-size: 11px;
     display: inline;
     float: left;
-    margin: 10px 7px;
+    margin: -17px 0px;
     padding: auto;
     text-align: center;
     flex-wrap: wrap;
@@ -215,8 +215,8 @@
   .collapsed-user-menu {
     background: #d3d3d3;
     height: 70px;
-    width: 200%;
-    margin-left: -50px;
+    width: 100%;
+    margin-left: 0;
   }
   #promo-bar {
     display:none;
@@ -225,7 +225,8 @@
     display: block;
   }
   #menu-logo {
-    width: 50%;
-    margin-left: -20px;
+    width: 2rem;
+    margin-left: 0;
+    margin-right: -15px;
   }
 }
