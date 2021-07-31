@@ -252,16 +252,25 @@ header img {
   width: 2em;
   margin-left: 5rem;
   margin-right: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 .navbar {
   background-color: white;
 }
 
+.navbar-toggler {
+  cursor: default;
+  pointer-events: none;
+}
+
 .navbar-nav {
   font-size: 1.25rem !important;
+}
+
+.navbar-brand {
+  margin-left: 50%;
 }
 
 #mainHeader {
@@ -543,7 +552,7 @@ fieldset {
   margin-top: -3px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  cursor: pointer;
+  cursor: default;
 }
 
 .tarjeta .producto svg.heart:hover {
@@ -576,7 +585,7 @@ fieldset {
 }
 
 .tarjeta .description h1 {
-  color: #515151;
+  color: #415467;
   font-weight: 300;
   padding-top: 15px;
   margin: 0;
@@ -593,7 +602,7 @@ fieldset {
 
 .tarjeta .description h4 {
   margin: 0;
-  color: #727272;
+  color: #415467;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 12px;
@@ -602,7 +611,7 @@ fieldset {
 .tarjeta .description p {
   font-size: 12px;
   line-height: 20px;
-  color: #727272;
+  color: #415467;
   padding: 20px 0;
   margin: 0;
 }
@@ -611,10 +620,10 @@ fieldset {
   outline: 0;
   border: 0;
   background: none;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #415467;
   padding: 8px 0px;
   margin-bottom: 30px;
-  color: #515151;
+  color: #415467;
   text-transform: uppercase;
   width: 125px;
   font-family: inherit;
@@ -625,9 +634,14 @@ fieldset {
 }
 
 .tarjeta .description button:hover {
-  border: 1px solid #aedaa6;
-  color: #aedaa6;
-  cursor: pointer;
+  border: 1px solid #5c96d0;
+  color: #5c96d0;
+  cursor: default;
+}
+
+.noCursor {
+  cursor: default;
+  pointer-events: none;
 }
 
 .tarjetaTop {
@@ -651,6 +665,16 @@ fieldset {
   padding: 10px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  pointer-events: none;
+  cursor: default;
+}
+
+.siCursor {
+  pointer-events: visible;
+}
+
+.siCursor:hover {
+  text-decoration: none;
 }
 
 #collapsed-menu {
@@ -684,12 +708,16 @@ fieldset {
 }
 
 #promo-bar a {
-  color: #fff;
+  color: #5c96d0;
 }
 
 #promo-bar a:hover {
-  opacity: .8;
-  color: #fff;
+  color: #85bdf5;
+}
+
+.desktop-link {
+  pointer-events: none;
+  cursor: default;
 }
 
 @media only screen and (max-width: 990px) {

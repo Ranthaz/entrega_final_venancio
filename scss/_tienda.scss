@@ -40,7 +40,7 @@
             float: right;
             margin-top: -3px;
             transition: all 0.3s ease;
-            cursor: pointer;
+            cursor: default;
 
             &:hover {
             fill: red;
@@ -73,7 +73,7 @@
         border-left: 2px solid #efefef;
 
         h1 {
-        color: #515151;
+        color: $colorTitulos;
         font-weight: 300;
         padding-top: 15px;
         margin: 0;
@@ -90,7 +90,7 @@
 
         h4 { 
         margin: 0;
-        color: #727272;
+        color: $colorTexto;
         text-transform: uppercase;
         font-weight: 500;
         font-size: 12px;
@@ -99,34 +99,39 @@
         p { 
         font-size: 12px; 
         line-height: 20px;
-        color: #727272;
+        color: $colorTexto;
         padding: 20px 0;
         margin: 0;
         }
 
         button {
-        outline: 0;
-        border: 0;
-        background: none;
-        border: 1px solid #d9d9d9;
-        padding: 8px 0px;
-        margin-bottom: 30px;
-        color: #515151;
-        text-transform: uppercase;
-        width: 125px;
-        font-family: inherit;
-        margin-right: 5px;
-        transition: all 0.3s ease;
-        font-weight: 500;
-
-        &:hover {
-        // background: darken(white, 2%);
-        border: 1px solid #aedaa6;
-        color: #aedaa6;
-        cursor: pointer;
-        }
+            outline: 0;
+            border: 0;
+            background: none;
+            border: 1px solid $colorTexto;
+            padding: 8px 0px;
+            margin-bottom: 30px;
+            color: $colorTexto;
+            text-transform: uppercase;
+            width: 125px;
+            font-family: inherit;
+            margin-right: 5px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            
+            &:hover {
+            // background: darken(white, 2%);
+            border: 1px solid #5c96d0;
+            color: #5c96d0;
+            cursor: default;
+            }
         }   
     }
+}
+
+.noCursor{
+    cursor: default;
+    pointer-events: none;
 }
 
 .tarjetaTop{
@@ -140,6 +145,15 @@
     margin: 0 auto;
     padding: 10px;
     flex-wrap: wrap;
+    pointer-events: none;
+    cursor: default;
+}
+
+.siCursor{
+    pointer-events: visible;
+    &:hover{
+        text-decoration: none;
+    }
 }
 
 #collapsed-menu {
@@ -168,14 +182,17 @@
 }
 
 #promo-bar a {
-    color: #fff;
+    color:$colorLinks;
 }
 
 #promo-bar a:hover {
-    opacity: .8;
-    color: #fff;
+    color: #85bdf5;
 }
 
+.desktop-link{
+    pointer-events: none;
+    cursor: default;
+}
 
 @media only screen and (max-width: 990px) {
   li {
@@ -194,6 +211,7 @@
   .desktop-link {
     display: none;
   }
+
   .collapsed-user-menu {
     background: #d3d3d3;
     height: 70px;

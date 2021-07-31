@@ -10,8 +10,8 @@ header{
       width: 2em;
       margin-left: 5rem;
       margin-right: 1rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+      margin-top: 0rem;
+      margin-bottom: 0rem;
     }
 }
 
@@ -19,8 +19,17 @@ header{
   background-color: white;
 }
 
+.navbar-toggler{
+  cursor: default;
+  pointer-events: none;
+}
+
 .navbar-nav{
   font-size: 1.25rem !important;
+}
+
+.navbar-brand{
+  margin-left: 50%;
 }
 
 #mainHeader{
