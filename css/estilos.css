@@ -208,6 +208,7 @@ h1.centrado {
 
 h1.thinBlog {
   color: white;
+  padding-top: 1rem;
 }
 
 .fondos h1 {
@@ -240,7 +241,7 @@ h3 {
 
 header img {
   width: 2em;
-  margin-left: 5rem;
+  margin-left: 10rem;
   margin-right: 1rem;
   margin-top: 0rem;
   margin-bottom: 0rem;
@@ -253,7 +254,20 @@ header img {
           justify-content: center;
 }
 
-.navbar-nav
+.navbar-brand img {
+  margin-left: 20rem;
+}
+
+/*.navbar-toggler{
+  cursor: pointer;
+  pointer-events: visible;
+}*/
+/*.navbar-nav{
+  font-size: 1.25rem !important;
+}*/
+/*.navbar-brand{
+  margin-left: 50%;
+}*/
 #mainHeader {
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -698,12 +712,12 @@ fieldset {
 }
 
 #promo-bar h3 {
-  font-size: 16px;
+  font-size: 15px;
   padding: 5px;
 }
 
 #promo-bar p {
-  font-size: 11px;
+  font-size: 15px;
   padding: 2px;
 }
 

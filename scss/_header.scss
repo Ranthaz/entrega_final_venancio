@@ -1,7 +1,7 @@
 header{
   img{
     width: 2em;
-     margin-left: 5rem;
+     margin-left: 10rem;
      margin-right: 1rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
@@ -13,7 +13,12 @@ header{
   justify-content: center;
 }
 
-.navbar-nav
+.navbar-brand{
+  img{
+    margin-left: 20rem;
+  }
+}
+
 /*.navbar-toggler{
   cursor: pointer;
   pointer-events: visible;
