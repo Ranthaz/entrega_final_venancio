@@ -1,16 +1,22 @@
 header{
-    display:flex;
+    /*display:flex;
     text-align: center;
     /*min-height: 70px;*/
-    width: 100%;
-    background-color: $colorfoothead;
+    /*width: 100%;
+    background-color: white;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     img{
       width: 2em;
       margin-left: 5rem;
       margin-right: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
+}
+
+.navbar{
+  background-color: white;
 }
 
 .navbar-nav{
