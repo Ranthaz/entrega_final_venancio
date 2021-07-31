@@ -243,7 +243,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  min-height: 70px;
+  /*min-height: 70px;*/
   width: 100%;
   background-color: black;
   -webkit-box-pack: center;
@@ -252,12 +252,12 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  /*margin-bottom: $paddingNoticia*1.25;*/
 }
 
 header img {
   width: 2em;
-  margin: 5rem;
+  margin-left: 5rem;
+  margin-right: 1rem;
 }
 
 .navbar-nav {
