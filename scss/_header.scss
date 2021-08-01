@@ -1,11 +1,19 @@
-header{
+/*header{
   img{
     width: 2em;
-     margin-left: 10rem;
-     margin-right: 1rem;
+    margin-left: 0;
+    margin-right: 1rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
     }
+}*/
+
+.logoMain{
+  width: 2em;
+  margin-left: 0;
+  margin-right: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 .navbar{
@@ -13,11 +21,11 @@ header{
   justify-content: center;
 }
 
-.navbar-brand{
+/*.navbar-brand{
   img{
     margin-left: 20rem;
   }
-}
+}*/
 
 /*.navbar-toggler{
   cursor: pointer;
