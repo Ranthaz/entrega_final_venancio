@@ -52,7 +52,7 @@
   width:40px;
   height:40px;
   line-height:40px;
-  margin-left:6px;
+  margin-left:24px;
   margin-right:0;
   border-radius:100%;
   background-color:#33353d;
@@ -80,6 +80,7 @@
   padding-left:0;
   margin-bottom:0;
   list-style:none;
+  justify-content: flex-end;
 }
 .social-icons li{
   display:inline-block;

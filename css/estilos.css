@@ -263,6 +263,10 @@ h3 {
           justify-content: center;
 }
 
+.nav-link {
+  padding: 1rem;
+}
+
 /*.navbar-brand{
   img{
     margin-left: 20rem;
@@ -385,7 +389,7 @@ ul li.inLine {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  margin-left: 6px;
+  margin-left: 24px;
   margin-right: 0;
   border-radius: 100%;
   background-color: #33353d;
@@ -414,6 +418,9 @@ ul li.inLine {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .social-icons li {
