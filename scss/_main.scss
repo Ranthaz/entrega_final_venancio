@@ -10,13 +10,12 @@ body{
     font-family: $fuenteTexto;
     font-size: $cuerpoSize;
     line-height: $cuerpoSize*1.25;
-    background: url(../media/fondoprincipalfullweb2.jpg);
+    /*background: url(../media/fondoprincipalfullweb2.jpg);*/
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     &.blogfond{
-        background: url(../media/fondoblogfullweb.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -50,8 +49,11 @@ section{
     background-color: $fondoNoticia;
     border-radius: 0;
     padding: $paddingNoticia 0px;
-    box-shadow: 12px 14px 17px -9px #2f373c;
+    /*box-shadow: 12px 14px 17px -9px #2f373c;*/
     max-width: 85%;
+    &.mBlog{
+        margin-bottom: 3rem;
+    }
 
 }
 
@@ -129,6 +131,9 @@ p{
         background-color: black;
         padding: 0;
         margin: 0;
+    }
+    .caracteristica{
+        margin-top: -5px;
     }
 }
 
