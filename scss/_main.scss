@@ -160,6 +160,22 @@ p{
     background-color: white;
 }
 
+@media (max-width: 768px ){
+    .tarjeta{
+      max-width: 500px !important;
+    }
+
+    .tarjeta .description button {
+        width: 254px !important;
+        font-size: 1rem !important;
+        margin-left: -1.2rem !important;
+    }
+
+    .tarjeta .photo {
+        padding: 80px 0 0 0 !important;
+    }
+}
+
 @media (max-width: 576px) {
 
     section{
@@ -179,22 +195,6 @@ p{
         background-position: left;
     }
 
-}
-
-@media (max-width: 768px ){
-    .tarjeta{
-      max-width: 500px !important;
-    }
-
-    .tarjeta .description button {
-        width: 254px !important;
-        font-size: 1rem !important;
-        margin-left: -1.2rem !important;
-    }
-
-    .tarjeta .photo {
-        padding: 80px 0 0 0 !important;
-    }
 }
 
 @media (max-width: 576px){
@@ -224,5 +224,15 @@ p{
 
     .detalleProducto {
         width: 191px;
+    }
+
+    .desk{
+        display:none !important;
+    }
+}
+
+@media (min-width: 577px){
+    .cel{
+        display:none
     }
 }
