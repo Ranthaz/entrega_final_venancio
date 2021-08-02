@@ -10,22 +10,13 @@ body{
     font-family: $fuenteTexto;
     font-size: $cuerpoSize;
     line-height: $cuerpoSize*1.25;
-    /*background: url(../media/fondoprincipalfullweb2.jpg);*/
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    &.blogfond{
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-    }
 }
 
 #banner{
-    display: flex;
-    align-items: center;
     margin-bottom: $bannerespacio*0.15;
     height: $bannerespacio;
     background-image: url("../media/banner02.jpg");
@@ -37,10 +28,9 @@ body{
 .fondos{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    max-height: 200px;
-    margin-left :4rem;
-
+    position: absolute;
+    margin-top: 17em;
+    margin-left: 2em;
 }
 
 section{
@@ -49,7 +39,6 @@ section{
     background-color: $fondoNoticia;
     border-radius: 0;
     padding: $paddingNoticia 0px;
-    /*box-shadow: 12px 14px 17px -9px #2f373c;*/
     max-width: 85%;
     &.mBlog{
         margin-bottom: 3rem;
@@ -85,7 +74,7 @@ span{
     display: flex;
     flex-flow: row wrap;
     align-items:center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     justify-items: center;
     margin-bottom: 1rem;
 
@@ -169,4 +158,26 @@ p{
 
 .icono{
     background-color: white;
+}
+
+@media (max-width: 576px) {
+
+    section{
+        padding: 45px 0;
+    }
+    .noticia{
+        font-size: .9rem;
+    }
+
+    .noticia .noticia__multimedia img {
+        width: 15rem;
+        height: 12rem;
+        border-radius: 2rem;
+    }
+
+    #banner{
+        background-position: left;
+    }
+
+    
 }
