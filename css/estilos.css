@@ -211,6 +211,9 @@ p .caracteristica {
   #banner {
     background-position: left;
   }
+  .fondos {
+    margin-left: .5rem !important;
+  }
 }
 
 @media (max-width: 576px) {
@@ -301,7 +304,7 @@ header {
 }
 
 .fixed-top {
-  max-height: 3em;
+  height: 3em;
 }
 
 .logoMain {
