@@ -807,6 +807,10 @@ fieldset {
   margin-top: 15em;
 }
 
+.productoConsulta {
+  color: #415467;
+}
+
 /*$main-font: 'Roboto',sans-serif;
 $primary-color: #57e2b2;
 $light-gray: #f8f8f8;
