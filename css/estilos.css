@@ -322,10 +322,6 @@ header {
           justify-content: center;
 }
 
-.nav-link {
-  padding: 1rem;
-}
-
 #mainHeader {
   -ms-flex-pack: distribute;
       justify-content: space-around;
