@@ -251,10 +251,10 @@ p .caracteristica {
   }
 }
 
-@media (max-width: 577px) and (orientation: landscape) {
+@media (orientation: landscape) and (min-width: 500px) {
   .fondos {
-    margin-top: 9em !important;
-    margin-left: .5em !important;
+    margin-top: 9em;
+    margin-left: .5em;
   }
 }
 
