@@ -241,3 +241,10 @@ p{
         display:none
     }
 }
+
+@media (min-width: 577px) and (orientation: landscape){
+    .fondos{
+    margin-top: 9em;
+    margin-left: .5em;
+    }
+}

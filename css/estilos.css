@@ -251,6 +251,13 @@ p .caracteristica {
   }
 }
 
+@media (min-width: 577px) and (orientation: landscape) {
+  .fondos {
+    margin-top: 9em;
+    margin-left: .5em;
+  }
+}
+
 h1 {
   color: #415467;
   text-transform: uppercase;
